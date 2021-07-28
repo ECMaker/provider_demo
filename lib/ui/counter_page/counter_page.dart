@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CounterPage extends StatefulWidget {
-  CounterPage({Key? key, required this.title}) : super(key: key);
-  final String title;
+  CounterPage({Key? key}) : super(key: key);
 
   @override
   _CounterPageState createState() => _CounterPageState();
@@ -21,7 +20,7 @@ class _CounterPageState extends State<CounterPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text('Counter Page'),
       ),
       body: Center(
         child: Column(

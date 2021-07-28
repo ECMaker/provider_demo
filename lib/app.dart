@@ -9,7 +9,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CounterPage(title: 'Flutter Demo Home Page'),
+      home: CounterPage(),
     );
   }
 }
