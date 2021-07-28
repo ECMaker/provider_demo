@@ -12,10 +12,16 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  provider:                 # provider
+  freezed_annotation:       # freezed
+  json_serializable:        # freezed
+  flutter_state_notifier:   # statenotifierprovider
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  build_runner:             # freezed
+  freezed:                  # freezed
 
 flutter:
   uses-material-design: true
